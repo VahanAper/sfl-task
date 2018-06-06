@@ -1,0 +1,26 @@
+.day-card {
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.day-card.active {
+    background-color: grey;
+}
+
+.day-card.active p {
+    display: block;
+}
+
+.day-card p {
+    display: none;
+}
+
+.showen {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
